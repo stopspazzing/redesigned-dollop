@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+page-title: Welcome!
+home-title: This is my new Website.
+description: Check out my reviews up top, or blog entries down below.
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="post-list">
+        {% include posts_paginator.html %}
+    </ul>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}
