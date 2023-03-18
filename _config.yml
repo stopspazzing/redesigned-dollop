@@ -1,7 +1,7 @@
 environment: production
 # Site settings
 title: 'Jeremys Blog and Tech Reviews'
-description: 'your web description'
+description: 'Jeremy's personal blog and freeware reviews'
 keywords: 'blog, stopspazzing, technology reviews'
 url: 'https://stopspazzing.com' # your host
 plugins:
